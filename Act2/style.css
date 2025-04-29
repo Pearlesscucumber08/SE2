@@ -1,0 +1,45 @@
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .html-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin: 8rem;
+        }
+        h2, h3, p{
+            text-align: center;
+        }
+        form{
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            padding: auto;
+            line-height: 2rem;
+            padding: 3rem;
+            background-color: rgb(181, 181, 181);
+            border-radius: 12px;
+        }
+        label{
+            font-size: large;
+        }
+        input, button{
+            margin: 0.5rem;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        input{
+            padding: 0.5rem;
+            background-color: whitesmoke;
+        }
+        button{
+            margin-top: 1.5rem;
+            padding: 0.5rem;
+            width: 50%;
+            margin-left: 5rem;
+            background-color: #007bff;
+            font-weight: 600;
+        }
